@@ -1,0 +1,61 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "flask-api",
+    "dateExported": "2023-05-02T07:20:35.290Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ea936ac1-0166-421c-aea1-b5442e82ace8",
+            "colId": "c440807c-cca1-4815-8842-0f43d2354d77",
+            "containerId": "",
+            "name": "register",
+            "url": "http://127.0.0.1:5000/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-02T06:14:20.949Z",
+            "modified": "2023-05-02T07:17:15.487Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "\n{\n\"email\": \"hj.j@example.com\",\n\"username\": \"jj\",\n\"password\": \"password123\",\n\"mobile_no\": \"1234567890\",\n\"address\": \"123 Main St\",\n\"city\": \"gurgaon\",\n\"message\": \"testing!\"\n}\n\n\n\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5e1ef951-b130-4393-836a-227b82673886",
+            "colId": "c440807c-cca1-4815-8842-0f43d2354d77",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:5000/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-05-02T06:14:52.929Z",
+            "modified": "2023-05-02T07:12:03.288Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"username\": \"vj\",\n        \"password\": \"password123\"\n}\n\n\n\n\n\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4c1701dc-4859-48ab-8382-9f9b1f5efb14",
+            "colId": "c440807c-cca1-4815-8842-0f43d2354d77",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://127.0.0.1:5000/logout",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-02T06:16:33.730Z",
+            "modified": "2023-05-02T07:01:39.550Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
