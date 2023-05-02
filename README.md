@@ -7,6 +7,16 @@ Flask
 Flask-RESTful
 Flask-JWT-Extended
 pymongo
+
+
+![Screenshot 2023-05-02 at 12 59 32 PM](https://user-images.githubusercontent.com/67068290/235605901-ffd72cfc-cf07-4520-ad67-2be5e1898942.png)
+
+
+
+
+
+
+
 API Endpoints
 /register
 Method: POST
